@@ -7,7 +7,7 @@
 /* font-family: 'Lato', sans-serif; */
 
 
-/* 
+
 :root {
     --ff-body: 'Lato', sans-serif;
     --ff-heading: 'Merriweather', serif;
@@ -70,8 +70,8 @@ img {
     margin-top: var(-flow-spacer, 1em);
 }
 
-/* --------------------------------- Topnav header Button Footer Colors */
-/* body {
+
+ body {
     font-family: var(--ff-body);
     font-size: var(--fs-400);
     line-height: 1.6;
@@ -120,62 +120,5 @@ a {
     pad: 25px;
     border: 5px solid red;
     background-color: aqua;
-}  */
+}  
  
-
-
-
-.bg-color-topnav {   
-    background-color: #D9C8B7;
-}
-
-.navbar-bg-color {
-    background-color: #EDE6DE;
-} 
-
-.bg-color-header {
-    background-color: #FCE9DF;
-} 
-
-
-/* ---------------------------------TopNav */
-/* 
-.topnav {
-    padding-top: 2px;
-    padding-bottom: 0px;
-    padding-right: 20px;
-    margin: 0;
-
-} */
-
-.topnav ul {
-    text-align: center;
-    list-style-type: none;
-
-}
-
-.topnav li a {
-    align-content: center;
-    color: #854A14;
-    text-decoration: none;
-
-}
-
-.topnav-text-end a {
-    padding-left: 5px;
-    color: #854A14;
-    align-items: flex-end;
-
-}
-
-.topnav-start i {
-    color: #854A14;
-
-}
-
-
-
-
-
-
-
