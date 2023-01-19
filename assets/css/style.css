@@ -7,11 +7,125 @@
 /* font-family: 'Lato', sans-serif; */
 
 
+/* 
+:root {
+    --ff-body: 'Lato', sans-serif;
+    --ff-heading: 'Merriweather', serif;
+}
+
+
+--clr-primary-400: hsl(60 100% 50%);
+--clr-neutral-900: hsl(0 0% 0%);
+--clr-neutral-100: hsl(0 0% 100%);
+
+
+
+--fs-xl: 5rem;
+--fs-600: 1.5rem;
+--fs-500: 1.25rem;
+--fs-400: 1rem;
+
+
+
+@media (min-width: 40em) {
+
+    :root {
+        --fs-xl: 7rem;
+        --fs-600: 2rem;
+        --fs-500: 1.25rem;
+        --fs-400: 1.125rem;
+    }
+}
+
+
+
+*,
+*::before,
+body
+*::after {
+    box-sizing: border-box;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+.flow > * + * {
+    margin-top: var(-flow-spacer, 1em);
+}
+
 /* --------------------------------- Topnav header Button Footer Colors */
+/* body {
+    font-family: var(--ff-body);
+    font-size: var(--fs-400);
+    line-height: 1.6;
+}
+
+h1,
+blockquote {
+    font-family: var(--ff-heading);
+    font-weight: 900;
+}
+
+
+h1 {
+    font-size: 5rem;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+blockquote {
+    font-size: var(--fs-600);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+
+blockquote::before {
+    content: open-quote;
+}
+
+
+blockquote::after {
+content: close-quote;
+    }
+
+    
+a {
+    color: #444;
+    font-weight: 700;
+}
+
+
+.border-box {
+    box-sizing: border-box;
+    width: ;
+    pad: 25px;
+    border: 5px solid red;
+    background-color: aqua;
+}  */
+ 
 
 
 
-.bg-color-topnav {
+.bg-color-topnav {   
     background-color: #D9C8B7;
 }
 
@@ -19,7 +133,49 @@
     background-color: #EDE6DE;
 } 
 
-
 .bg-color-header {
     background-color: #FCE9DF;
+} 
+
+
+/* ---------------------------------TopNav */
+/* 
+.topnav {
+    padding-top: 2px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    margin: 0;
+
+} */
+
+.topnav ul {
+    text-align: center;
+    list-style-type: none;
+
 }
+
+.topnav li a {
+    align-content: center;
+    color: #854A14;
+    text-decoration: none;
+
+}
+
+.topnav-text-end a {
+    padding-left: 5px;
+    color: #854A14;
+    align-items: flex-end;
+
+}
+
+.topnav-start i {
+    color: #854A14;
+
+}
+
+
+
+
+
+
+
